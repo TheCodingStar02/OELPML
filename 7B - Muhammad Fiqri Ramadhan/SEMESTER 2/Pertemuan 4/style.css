@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url(background.jpg);
+    opacity: 85%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+td, th{
+    color: mediumturquoise;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    font-size: 50px;
+}
+
+table{
+    border-spacing: 10px;
+}
